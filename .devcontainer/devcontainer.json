@@ -1,0 +1,13 @@
+{
+  "name": "LUPTIFY Music Server",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "forwardPorts": [8000],
+  "portsAttributes": {
+    "8000": {
+      "label": "LUPTIFY Web Player",
+      "onAutoForward": "openBrowser"
+    }
+  },
+  "postCreateCommand": "pip install -r requirements.txt",
+  "postStartCommand": "python -m uvicorn server:app --host 0.0.0.0 --port 8000"
+}

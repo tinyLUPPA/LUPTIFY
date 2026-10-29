@@ -3,10 +3,27 @@
 
 ![LUPTIFY Logo](luptify-logo.svg)
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/tinyLUPPA/LUPTIFY)
+
 ## ✨ Overview
 **LUPTIFY** is a full-featured, high-performance music streaming application built with a lightweight Python/FastAPI backend and a vanilla HTML5/CSS3/JavaScript frontend powered by the WebAudio API.
 
 It seamlessly integrates with the YouTube Music catalog, supports offline storage via IndexedDB, word-follow synchronized lyrics with multi-language translation, and dynamic cosmic ambient aura lighting that adapts to album artwork colors.
+
+---
+
+## ☁️ Run Straight from GitHub (No Setup Required!)
+
+### Option 1: 1-Click GitHub Codespaces (Run in Browser)
+You can run LUPTIFY directly in your web browser from GitHub without downloading or configuring anything on your computer:
+1. Open [https://github.com/tinyLUPPA/LUPTIFY](https://github.com/tinyLUPPA/LUPTIFY).
+2. Click the green **`<> Code`** button, switch to the **Codespaces** tab, and click **"Create codespace on main"** (or click the badge above).
+3. GitHub automatically spins up a cloud container, installs the requirements, and opens LUPTIFY in your browser with a live public URL.
+
+### Option 2: 24/7 Cloud Deployment (Always Online)
+To keep LUPTIFY running 24/7 without needing your personal computer powered on:
+- **Render.com**: Connect your GitHub repository (`tinyLUPPA/LUPTIFY`), choose **Web Service**, and deploy for free using the included `render.yaml`.
+- **Railway / Koyeb / Hugging Face**: Import `tinyLUPPA/LUPTIFY` to get a permanent HTTPS domain.
 
 ---
 
@@ -53,19 +70,11 @@ It seamlessly integrates with the YouTube Music catalog, supports offline storag
 
 ---
 
-## 🛠️ Tech Stack
-
-- **Backend**: Python 3.10+, [FastAPI](https://fastapi.tiangolo.com/), [Uvicorn](https://www.uvicorn.org/), `ytmusicapi`, `yt-dlp`, `httpx`
-- **Frontend**: Vanilla ES6+ JavaScript, CSS3 Glassmorphism with hardware-accelerated animations, HTML5 WebAudio API, IndexedDB
-- **Tunneling**: Cloudflare Tunnel (`cloudflared`) for secure mobile device access without port forwarding
-
----
-
-## 📦 Installation & Setup
+## 📦 Local Installation & Setup
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/LUPTIFY.git
+git clone https://github.com/tinyLUPPA/LUPTIFY.git
 cd LUPTIFY
 ```
 
